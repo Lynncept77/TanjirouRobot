@@ -461,7 +461,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                   InlineKeyboardButton(text="Tanjirou Kamado", url="https://t.me/Lynncept_iz_here",
+                   InlineKeyboardButton(text="Tanjirou Kamado", url="https://t.me/Lynncept_iz_here"),
                    InlineKeyboardButton(text="LYNNCEPT", url="https://youtube.com/channel/UCyR9VMAfEe2jgXQpwnpVcvw"),
                  ],
                  [
