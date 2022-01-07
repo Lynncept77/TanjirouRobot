@@ -194,7 +194,7 @@ def addwhitelist(update: Update, context: CallbackContext) -> str:
 
     if user_id in DEMONS:
         rt += "This user is already a wind breather, Demoting to beast breather"
-        data["windbreathers""].remove(user_id)
+        data["windbreathers"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
