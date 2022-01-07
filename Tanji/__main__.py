@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-TANJI_IMG = "https://telegra.ph/file/27b18f6de63ed185376e6.jpg""
+TANJI_IMG = "https://telegra.ph/file/27b18f6de63ed185376e6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Lynncept_iz_here \
