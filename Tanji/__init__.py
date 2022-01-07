@@ -79,7 +79,7 @@ if ENV:
         raise Exception("Your Beast Breathers list does not contain valid integers.")
 
     try:
-        TIGERS = {int(x) for x in os.environ.get("Waterbreathing, "").split()}
+        TIGERS = {int(x) for x in os.environ.get("Waterbreathing", "").split()}
     except ValueError:
         raise Exception("Your Water Breathers list does not contain valid integers.")
 
