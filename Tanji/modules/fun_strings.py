@@ -12,7 +12,7 @@ RUN_STRINGS = (
     "Run nezuko Run",
     "Hey take responsibilty for civilians!",
     "May the odds be ever in your favour.",
-    "Go away everyone, that's a upper moon!!,
+    "Go away everyone, that's a upper moon!!",
     "And they disappeared forever, never to be seen again.",
     "Whenever happiness is destroyed, there's always the smell of blood",
     "Kwaii.",
