@@ -1,5 +1,5 @@
 from sqlalchemy import Boolean, Column, String, UnicodeText
-from SiestaRobot.modules.sql import BASE, SESSION
+from Tanji.modules.sql import BASE, SESSION
 
 
 class Nightmode(BASE):
