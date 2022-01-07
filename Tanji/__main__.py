@@ -814,7 +814,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-        tanji_about_callback, pattern=r"tanji_", run_async=True
+        siesta_about_callback, pattern=r"tanji_", run_async=True
     )
 
     source_callback_handler = CallbackQueryHandler(
