@@ -451,24 +451,6 @@ def siesta_about_callback(update, context):
         )
 
 
-    elif query.data == "tanji_credit":
-        query.message.edit_text(
-            text=f"๏ Credis for Tanjirou\n"
-            "\nHere Developers Making And Give Inspiration For Made The Tanjirou Kamado",
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="Lynncept", url="https://github.com/Lynncept77"),
-                 ]
-                ],
-                 [
-                    InlineKeyboardButton(text="Go Back", callback_data="tanji_"),
-                 ]
-                ],
-           )
-           
-      
 
 def Source_about_callback(update, context):
     query = update.callback_query
