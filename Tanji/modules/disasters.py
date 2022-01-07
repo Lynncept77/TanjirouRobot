@@ -261,7 +261,7 @@ def addtiger(update: Update, context: CallbackContext) -> str:
         message.reply_text("This user is already a water breaather.")
         return ""
 
-    data["waterbreathers].append(user_id)
+    data["waterbreathers"].append(user_id)
     TIGERS.append(user_id)
 
     with open(ELEVATED_USERS_FILE, "w") as outfile:
