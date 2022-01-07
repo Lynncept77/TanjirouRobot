@@ -356,7 +356,7 @@ def help_button(update, context):
         pass
 
 
-def emiko_about_callback(update, context):
+def tanji_about_callback(update, context):
     query = update.callback_query
     if query.data == "tanji_":
         query.message.edit_text(
