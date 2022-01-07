@@ -431,7 +431,7 @@ def siesta_about_callback(update, context):
                 [[InlineKeyboardButton(text="Go Back", callback_data="tanji_")]]
             ),
         )
-    elif query.data == "tanji_support":
+    elif query.data == "tanji_kamado_support":
         query.message.edit_text(
             text="*๏ Tanjirou support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Siesta.",
