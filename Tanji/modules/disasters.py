@@ -536,7 +536,7 @@ def devlist(update: Update, context: CallbackContext):
     m.edit_text(reply, parse_mode=ParseMode.HTML)
 
 
-SUDO_HANDLER = CommandHandler(("addsudo", "train thunder"), addsudo, run_async=True)
+SUDO_HANDLER = CommandHandler(("addsudo", "trainthunder"), addsudo, run_async=True)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "trainwind"), addsupport, run_async=True)
 TIGER_HANDLER = CommandHandler(("addsoldier"), addtiger, run_async=True)
 WHITELIST_HANDLER = CommandHandler(
