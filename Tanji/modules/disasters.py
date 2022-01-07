@@ -143,7 +143,7 @@ def addsupport(
 
     if user_id in WOLVES:
         rt += "Succesfully raised beast breather to wind breather"
-        data["beastbreathers].remove(user_id)
+        data["beastbreathers"].remove(user_id)
         WOLVES.remove(user_id)
 
     data["windbreathers"].append(user_id)
