@@ -2,7 +2,7 @@ import textwrap
 import os
 from PIL import Image, ImageFont, ImageDraw
 from Tanji.events import register
-from Tanji.import LOGGER, TEMP_DOWNLOAD_DIRECTORY, telethn as bot
+from Tanji import LOGGER, TEMP_DOWNLOAD_DIRECTORY, telethn as bot
 
 
 @register(pattern="^/mmf ?(.*)")
