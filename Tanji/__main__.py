@@ -436,7 +436,7 @@ def tanji_about_callback(update, context):
     elif query.data == "tanji_support":
         query.message.edit_text(
             text="*๏ Tanjirou support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            "\nJoin My Support Group/Channel for see or report a problem on Tanjirou.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
