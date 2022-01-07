@@ -440,7 +440,7 @@ def siesta_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/Tanji_kamado_support"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Tanjirou_updates""),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Tanjirou_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="tanji_"),
