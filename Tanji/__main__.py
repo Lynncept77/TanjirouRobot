@@ -368,7 +368,7 @@ def tanji_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_Tanjirou's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for EmikoRobot.",
+            "\n\n Click on button bellow to get basic help for Tanjirou Kamado.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
