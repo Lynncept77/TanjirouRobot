@@ -13,7 +13,7 @@ from Tanji.modules.helper_funcs.chat_status import (
 )
 from Tanji.modules.log_channel import loggable
 from Tanji.modules.sql import antiflood_sql as sql
-from Tanji.errors import BadRequest
+from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
     CallbackQueryHandler,
