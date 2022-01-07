@@ -13,7 +13,7 @@ from Tanji import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
-class SiestaHandler:
+class TanjirouHandler:
     def __init__(self, d):
         self._dispatcher = d
 
@@ -54,7 +54,7 @@ class SiestaHandler:
                         group,
                     )
                 LOGGER.debug(
-                    f"[SIESTACMD] Loaded handler {command} for function {func.__name__} in group {group}"
+                    f"[TANJICMD] Loaded handler {command} for function {func.__name__} in group {group}"
                 )
             except TypeError:
                 if can_disable:
@@ -81,7 +81,7 @@ class SiestaHandler:
                         )
                     )
                 LOGGER.debug(
-                    f"[SIESTACMD] Loaded handler {command} for function {func.__name__}"
+                    f"[TANJICMD] Loaded handler {command} for function {func.__name__}"
                 )
 
             return func
@@ -110,7 +110,7 @@ class SiestaHandler:
                         MessageHandler(pattern, func, run_async=run_async), group
                     )
                 LOGGER.debug(
-                    f"[SIESTAMSG] Loaded filter pattern {pattern} for function {func.__name__} in group {group}"
+                    f"[TANJIMSG] Loaded filter pattern {pattern} for function {func.__name__} in group {group}"
                 )
             except TypeError:
                 if can_disable:
@@ -124,7 +124,7 @@ class SiestaHandler:
                         MessageHandler(pattern, func, run_async=run_async)
                     )
                 LOGGER.debug(
-                    f"[SIESTAMSG] Loaded filter pattern {pattern} for function {func.__name__}"
+                    f"[TANJIMSG] Loaded filter pattern {pattern} for function {func.__name__}"
                 )
 
             return func
@@ -139,7 +139,7 @@ class SiestaHandler:
                 )
             )
             LOGGER.debug(
-                f"[SIESTACALLBACK] Loaded callbackquery handler with pattern {pattern} for function {func.__name__}"
+                f"[TANJICALLBACK] Loaded callbackquery handler with pattern {pattern} for function {func.__name__}"
             )
             return func
 
@@ -165,14 +165,14 @@ class SiestaHandler:
                 )
             )
             LOGGER.debug(
-                f"[SIESTAINLINE] Loaded inlinequery handler with pattern {pattern} for function {func.__name__} | PASSES USER DATA: {pass_user_data} | PASSES CHAT DATA: {pass_chat_data} | CHAT TYPES: {chat_types}"
+                f"[TANJIINLINE] Loaded inlinequery handler with pattern {pattern} for function {func.__name__} | PASSES USER DATA: {pass_user_data} | PASSES CHAT DATA: {pass_chat_data} | CHAT TYPES: {chat_types}"
             )
             return func
 
         return _inlinequery
 
 
-siestacmd = SiestaHandler(d).command
-siestamsg = SiestaHandler(d).message
-siestacallback = SiestaHandler(d).callbackquery
-siestainline = SiestaHandler(d).inlinequery
+TANJICMD = TanjirouHandler(d).command
+TANJIMSG = TanjirouHandler(d).message
+TANJICALLBACK = TanjirouHandler(d).callbackquery
+TANJIINLINE = TanjirouHandler(d).inlinequery
