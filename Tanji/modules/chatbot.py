@@ -23,7 +23,7 @@ from Tanji.pyrogramee.pyrogram import pbot as Tanji
 
 translator = google_translator()
 
-async def lunaQuery(query: str, user_id: int):
+async def TanjiQuery(query: str, user_id: int):
 
     Tanji = await arq.Tanji(query, user_id)
 
