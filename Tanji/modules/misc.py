@@ -6,7 +6,7 @@ from typing import List
 from random import randint
 from Tanji.modules.helper_funcs.chat_status import user_admin
 from Tanji.modules.disable import DisableAbleCommandHandler
-from SiestaRobot import (
+from Tanji import (
     dispatcher,
     WALL_API,
 )
