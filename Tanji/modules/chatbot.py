@@ -19,7 +19,7 @@ from Tanji.helper_extra.aichat import add_chat, get_session, remove_chat
 
 from Tanji.pyrogramee.pluginshelper import admins_only, edit_or_reply
 
-from Tanji.pyrogramee.pyrogram import pbot as luna
+from Tanji.pyrogramee.pyrogram import pbot as Tanji
 
 translator = google_translator()
 
