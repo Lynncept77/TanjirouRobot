@@ -311,11 +311,9 @@ async def hmm(client, message):
 
         test = test.replace("Tanjirou", "Aco")
 
-        response = await TanjiQuery(
+        response = await TanjiQuery(test, message.from_user.id if message.from_user else 0)
 
-            test, message.from_user.id if message.from_user else 0
-
-        )
+            
 
         response = response.replace("Aco", "Tanjirou")
 
