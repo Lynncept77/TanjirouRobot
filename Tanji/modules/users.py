@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 import Tanji.modules.sql.users_sql as sql
-from Tanji.import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from Tanji import DEV_USERS, LOGGER, OWNER_ID, dispatcher
 from Tanji.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from Tanji.modules.sql.users_sql import get_all_users
 
