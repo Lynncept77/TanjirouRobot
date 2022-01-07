@@ -4,7 +4,7 @@ from pyrogram import Client
 
 # from pyromod import listen
 
-from lunaBot.conf import get_int_key, get_str_key
+from Tanji.conf import get_int_key, get_str_key
 
 TOKEN = get_str_key("TOKEN", required=True)
 
