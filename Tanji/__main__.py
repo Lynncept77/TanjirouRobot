@@ -380,10 +380,10 @@ def siesta_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="tanji_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shiinobu/SiestaRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/Lynncept77/TanjirouRobot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="siesta_back"),
+                    InlineKeyboardButton(text="Go Back", callback_data="tanji_back"),
                  ]
                 ]
             ),
