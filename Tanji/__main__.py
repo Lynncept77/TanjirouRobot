@@ -441,7 +441,7 @@ def tanji_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Tanji_kamado_bot"),
+                    InlineKeyboardButton(text="Support", url="t.me/Tanji_kamado_support"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/Tanjirou_updates"),
                  ],
                  [
