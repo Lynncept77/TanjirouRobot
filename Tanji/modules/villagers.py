@@ -45,7 +45,7 @@ async def is_administrator(user_id: int, message):
     return admin
 
 
-@telethn.on(events.NewMessage(pattern="^[!/]vvillagers ?(.*)"))
+@telethn.on(events.NewMessage(pattern="^[!/]villagers ?(.*)"))
 async def rm_deletedacc(show):
     con = show.pattern_match.group(1).lower()
     del_u = 0
