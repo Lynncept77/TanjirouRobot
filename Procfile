@@ -1,1 +1,1 @@
-worker: python3 -m TanjirouRobot
+worker: python3 -m Tanji
