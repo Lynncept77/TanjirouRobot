@@ -149,7 +149,7 @@ async def hmm(_, message):
 
         )
 
-@luna.on_message(
+@Tanji.on_message(
 
     filters.text
 
