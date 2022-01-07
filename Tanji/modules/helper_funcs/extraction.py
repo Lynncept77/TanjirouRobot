@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from Tanji import import LOGGER
+from Tanji import LOGGER
 from Tanji.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
