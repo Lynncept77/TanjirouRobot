@@ -1,4 +1,4 @@
-from SiestaRobot import telethn as tbot
+from Tanji import telethn as tbot
 import os
 import re
 import bs4
