@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nBreathing style of this slayer is 'Beast'."
         disaster_level_present = True
     elif user.id == 5069705982:
-         text += "\n\nOwner Of A Bot.Bot Name Inspired From 'Demon Slayer'."
+         text += "\n\nOwner Of A Bot.Name Inspired From 'Demon Slayer'."
          disaster_level_present = True 
      
 
