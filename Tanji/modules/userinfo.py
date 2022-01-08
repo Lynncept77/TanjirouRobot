@@ -318,7 +318,8 @@ def info(update: Update, context: CallbackContext):
     elif user.id == 5069705982:
          text += "\n\nOwner Of A Bot.Name Inspired From 'Demon Slayer'."
          disaster_level_present = True 
-     
+   elif user.id == 1788383898: 
+        text += f"\n\n This user use chutiya Breathing."
 
     try:
         user_member = chat.get_member(user.id)
