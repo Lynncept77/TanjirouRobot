@@ -59,7 +59,7 @@ async def rm_deletedacc(show):
         if del_u > 0:
             del_status = (
                 f"**Founding** `{del_u}` **Deleted account/villagers corpse On this group,"
-                "\nClean it with command** `/villager clean`"
+                "\nClean it with command** `/villagers clean`"
             )
         return await kontol.edit(del_status)
     chat = await show.get_chat()
