@@ -1,6 +1,6 @@
 import html
 import random
-import Tanji.modules.truth_or_dare_string as truth_or_dare_string
+import Tanji.modules.truth_and_dare_string as truth_and_dare_string
 from Tanji import dispatcher
 from telegram import ParseMode, Update, Bot
 from Tanji.modules.disable import DisableAbleCommandHandler
