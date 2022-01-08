@@ -319,8 +319,9 @@ def info(update: Update, context: CallbackContext):
          text += "\n\nOwner Of A Bot.Name Inspired From 'Demon Slayer'."
          disaster_level_present = True 
     elif user.id == 1788383898: 
-         text +=  "\n\n This user is Death Breather."
-
+         text +=  "\n\n This user uses Death Breathing☠️."
+    elif user.id == 1781808939: 
+         text += "\n\n This user uses Mushtii Breathing🐁."
     try:
         user_member = chat.get_member(user.id)
         if user_member.status == "administrator":
