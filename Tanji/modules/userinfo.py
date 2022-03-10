@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/Tanjirou_updates/28"),
+                                "Health", url="https://t.me/TanjirouXUpdates/3"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/Tanjirou_updates/10")
+                                "Disaster", url="https://t.me/TanjirouXUpdates/13")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/Tanjirou_updates/28"),
+                                "Health", url="https://t.me/TanjirouXUpdates/3"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/Tanjirou_updates/10")
+                                "Disaster", url="https://t.me/TanjirouXUpdates/13")
                         ],
                     ]
                 ),
@@ -448,9 +448,8 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>「 Current Tanjirou Stats」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>• Current Tanjirou Stats •</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By Lynncept」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
